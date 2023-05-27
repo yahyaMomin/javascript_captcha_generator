@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>cpatcha gendrator</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="captcha.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="text">captcha in javascript</div>
+			<div class="copy-btn">
+				<div class="copy">Copy code</div>
+			</div>
+			<div class="captcha-area">
+				<div class="captcha-img">
+					<img src="https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=" />
+					<span class="captcha"></span>
+				</div>
+				<button class="reload-btn"><i class="fa-solid fa-rotate-right"></i></button>
+			</div>
+			<div class="input-area">
+				<input type="text" required placeholder="Enter captcha here" />
+				<button class="enter">enter</button>
+			</div>
+			<div class="error">captcha not matched plase try again. <i class="fa fa-rotate-right"></i></div>
+			<div class="noerr">captcha matched you can login. <i class="fa-solid fa-check"></i></div>
+		</div>
+	</body>
+	<script src="captcha.js"></script>
+</html>
